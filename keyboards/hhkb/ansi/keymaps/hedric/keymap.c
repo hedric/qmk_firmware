@@ -35,7 +35,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_GRV,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_NUHS, KC_TRNS,
         KC_TRNS, KC_TRNS, KC_PGUP, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_INS,  KC_TRNS, KC_TRNS, KC_LPRN, KC_RPRN, KC_DEL,
         KC_TRNS, KC_TRNS, KC_PGDN, KC_TRNS, KC_TRNS, KC_TRNS, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_TRNS, KC_TRNS, KC_PENT,
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_PAST, KC_TRNS, KC_TRNS,
         KC_TRNS, KC_LALT, KC_TRNS, KC_TRNS, KC_TRNS)};
 
     /* Layer HHKB: HHKB mode (HHKB MOD(Fn))
@@ -46,7 +46,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       |------+-----+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-------+-------|
       |      |     | PgDn |     |     |     | Lef | Dow | Up  | Rig |     |     | Enter |
       |------+-----+------+-----+-----+-----+---- +-----+-----+-----+-----+-----+-------+
-      |      |     |      |     |     |     |     |     |     |     |     |     |       |
+      |      |     |      |     |     |     |     |     |     |     |  *  |     |       |
       |------+-----+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-------+
 
                  |------+------+----------------------+------+------+
